@@ -25,13 +25,13 @@ module mod_solvers
 !
 ! Description:
 !
-!	Performs linear, 1D interpolation for given data using following formula:
+!   Performs linear, 1D interpolation for given data using following formula:
 !
 !   y3 = mu*x3 + bu
 !
-!	mu = (y1-y2)/(x1-x2)
+!   mu = (y1-y2)/(x1-x2)
 !
-!	bu = y2 - (mu*x2)
+!   bu = y2 - (mu*x2)
 !
 ! -------------------------------------------------------------------------- 80
         implicit none
